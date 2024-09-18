@@ -1,0 +1,35 @@
+body{
+    background-color: #c6c6c6;
+    font-family: Arial;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fit,1fr);
+}
+.title{
+    font-size: 50px;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.topícos{
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    grid-row: 2;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+.botao{
+    display: flex;
+    grid-column: 1/-1;
+    justify-content: center;
+    align-content: center;
+}
+.conteudo{
+    background-color: #f7f7f7;
+    width: auto;
+    height: auto;
+    justify-self: end;
+}

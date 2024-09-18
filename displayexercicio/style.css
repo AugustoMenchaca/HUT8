@@ -29,3 +29,6 @@ a{
     padding: 10px;
     border-radius: 4px;
 }
+.produto{
+    max-width: 20%;
+}
