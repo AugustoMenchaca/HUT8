@@ -1,5 +1,5 @@
 body{
-    background-color: #c6c6c6;
+    background-color: #f7f7f7;
     font-family: Arial;
 }
 .principal{
@@ -8,13 +8,14 @@ body{
     grid-template-rows: repeat(auto-fit,1fr);
 }
 .title{
-    font-size: 50px;
     grid-column: 1/-1;
-    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 20px 20px;
 }
 .topícos{
     padding: 10px 20px;
-    background-color: #f7f7f7;
+    background-color: white;
     grid-row: 2;
     margin: 20px;
     text-decoration: none;
@@ -28,8 +29,70 @@ body{
     align-content: center;
 }
 .conteudo{
-    background-color: #f7f7f7;
-    width: auto;
-    height: auto;
+    display: grid;
+    margin: 30px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    padding: 10px 20px;
+}
+.primeiroconteudo{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: white;
+    grid-column: 1;
+    text-align: end;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.image{
+    grid-column: 2;
+    max-width: 100%;
+    border-radius: 5px;
+}
+#ver{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    align-self: start;
+    padding: 15px 30px;
     justify-self: end;
+    margin-right: 30px;
+    position: relative;
+    top: -10px;
+    border-radius: 5px;
+}
+.texto{
+    grid-row: 1;
+    padding: 10px 30px 0px 30px;
+    text-align: end;
+}
+
+#traço{
+    font-size: 60px;
+    text-decoration: line-through;
+    color: red;
+    position: relative;
+    right: -90px;
+}
+#textoex{
+    color: rgb(0, 0, 0, 0);
+}
+.segundoconteudo{
+    align-self: center;
+}
+#vantagens{
+    font-size: 64px;
+    color: #c6c6c6;
+    text-align: end;
+    margin: 50px;
+}
+.novo{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background-color: white;
+    margin: 0px;
+    padding: 50px 40px;
+}
+.icone-texto{
+    margin: 15px;
 }
