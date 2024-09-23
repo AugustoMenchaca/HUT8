@@ -1,8 +1,12 @@
 body{
     background-color: #f7f7f7;
     font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .principal{
+    margin: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(auto-fit,1fr);
@@ -11,7 +15,7 @@ body{
     grid-column: 1/-1;
     justify-self: center;
     align-self: center;
-    padding: 20px 20px;
+    padding: 40px 20px;
 }
 .topícos{
     padding: 10px 20px;
@@ -95,4 +99,12 @@ body{
 }
 .icone-texto{
     margin: 15px;
+}
+.rodape {
+    grid-column: 1/-1;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
 }
