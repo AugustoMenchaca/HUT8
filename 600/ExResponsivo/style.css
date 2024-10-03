@@ -7,6 +7,16 @@ body{
     max-width: 100%;
     max-height: 100%;
 }
+:root{
+    --escuro:#111;
+    --cor-secundaria:#757070;
+}
+@media (prefers-color-scheme:dark){
+    body{
+        background-image: none;
+        background-color: var(--cor-secundaria);
+    }
+}
 a{
     text-decoration: none;
 }
